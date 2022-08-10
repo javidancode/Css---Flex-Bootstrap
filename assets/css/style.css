@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav-area{
+    background-color: black;
+}
+
+#nav-area .container ul li a{
+    color: gray;
+}
+
+#nav-area .container ul li h5{
+    margin-top: 6px;
+    color: gray;
+}
+
+#main-text .box{
+    width: 950px;
+    height: 265px;
+    background-color: #EEEEEE;
+    position: relative;
+    margin-top: 20px;
+
+}
+
+#main-text .position{
+    position: absolute;
+    left: 55px;
+    top: 85px;
+}
+
+#main-text .sidebar{
+    width: 250px;
+    height: 400px;
+    background-color: #F5F5F5;
+    margin-top: 18px;
+    margin-left: 40px;
+    position: relative; 
+}
+
+#main-text .sidebar ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+#main-text .sidebar .links{
+    position: absolute;  
+    top: 15px;
+    left: 20px;
+
+}
+
+#main-text .sidebar ul li a{
+    text-decoration: none;
+}
+
+#info .container .cards a{
+    color: black;
+}
+
+#info .container .cards{
+    margin-top: -100px;
+    margin-left: -20px;
+    gap: 55px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#info .container .cards .my-border{
+    border: none;
+}
+
+#bottom-part .container .line-text .line{
+    width: 100%;
+    height: 2px;
+    background-color:#EEEEEE;
+    margin-top: 30px
+}
+
+#bottom-part .container .line-text p{
+    margin-top: 25px;
+}
